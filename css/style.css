@@ -1,0 +1,143 @@
+/* icon */
+.material-icons {
+    position: relative;
+    top: 5px;
+}
+
+/* overall apply */
+
+body {
+    font-family: "Nunito sans", Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/* spacing */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+p, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* navbar */
+
+nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #2c96bf;
+    padding: .5rem .5rem 1rem .5rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem 0 1rem;
+ 
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #f0f0f0;
+    border-bottom: .8rem solid #f0f0f0;
+    transition: .25s;
+    transition-timing-function: ease-out;
+}
+/* html section didn't close first hyperlink with </a> */
+/* header */
+
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url("../img/paul-gilmore-145802-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+
+header .motto {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+/*menu*/
+
+#menu {
+    background-color: #f0f0f0;
+}
+
+#menu dl dt {
+    font-size: 1.25rem;
+    font-style: bold;
+    margin-top: 1rem;
+}
+
+#menu dl dd {
+    margin: 0;
+}
+
+#menu dl img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* about */
+
+#about {
+    background-color: #e0e0e0;
+}
+
+#about h2, #about p {
+    line-height: 150%;
+}
+
+/* footer */ 
+
+footer {
+    color: white;
+    background-color: #3e1305;
+}
+
+footer a {
+    text-decoration:  none;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    line-height: 125%;
+}
+
+footer p:last-child {
+    padding-top: 8px;
+}
